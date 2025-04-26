@@ -136,29 +136,6 @@ function toggleLogro(checkbox, id) {
   }
 }
 
-// Al cargar: restaurar estado de checkboxes y actualizar barras de progreso
-window.onload = function() {
-  for (let i = 1; i <= 13; i++) {
-    const id = 'logro' + i;
-    const logroDiv = document.getElementById(id);
-    if (!logroDiv) continue;
-    const checkbox = logroDiv.querySelector('input[type="checkbox"]');
-    if (localStorage.getItem(id) === "completed") {
-      checkbox.checked = true;
-      logroDiv.classList.add('completado');
-    }
-  }
-
-  const logrosConBarra = document.querySelectorAll('.logro[data-completed]');
-  logrosConBarra.forEach(logro => {
-    const completed = parseInt(logro.getAttribute('data-completed'));
-    const max = parseInt(logro.getAttribute('data-max'));
-    const porcentaje = (completed / max) * 100;
-    const progressBar = logro.querySelector('.progress-bar');
-    progressBar.style.width = porcentaje + "%";
-    progressBar.innerText = `${completed}/${max}`;
-  });
-}
 </script>
 
 </body>
