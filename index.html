@@ -1,142 +1,228 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<title>🎖️ Lista Logros R.E.P.O. (Detalles en la descripción)</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<style>
-  body {
-    background: rgba(30, 30, 30, 0.85);
-    color: #f5f5f5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 20px;
-    border-radius: 15px;
-  }
-  .titulo {
-    background: rgba(50, 50, 50, 0.9);
-    padding: 15px;
-    text-align: center;
-    border-radius: 10px;
-    font-size: 24px;
-    margin-bottom: 20px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
-  }
-  .logro {
-    background: #2c2c2c;
-    border-radius: 10px;
-    padding: 10px 15px;
-    margin-bottom: 12px;
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s, transform 0.2s;
-  }
-  .logro:hover {
-    background: #3a3a3a;
-    transform: scale(1.02);
-  }
-  .logro-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .logro input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    accent-color: #28a745;
-  }
-  .logro.completado .logro-title {
-    text-decoration: line-through;
-    color: gray;
-  }
-  .progress {
-    height: 8px;
-    margin-top: 8px;
-  }
-  .progress-bar {
-    background-color: #28a745;
-  }
-</style>
+  <meta charset="UTF-8">
+  <title>🎖️ Lista Logros R.E.P.O. (Detalles en la descripción)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: rgba(30, 30, 30, 0.85);
+      color: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    .titulo {
+      background: rgba(50, 50, 50, 0.9);
+      padding: 15px;
+      text-align: center;
+      border-radius: 10px;
+      font-size: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .logro {
+      background: #2c2c2c;
+      border-radius: 10px;
+      padding: 10px 15px;
+      margin-bottom: 12px;
+      display: flex;
+      flex-direction: column;
+      font-size: 18px;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .logro:hover {
+      background: #3a3a3a;
+      transform: scale(1.02);
+    }
+
+    .logro-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logro input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      accent-color: #28a745;
+    }
+
+    .logro.completado .logro-title {
+      text-decoration: line-through;
+      color: gray;
+    }
+
+    .progress {
+      height: 8px;
+      margin-top: 8px;
+    }
+
+    .progress-bar {
+      background-color: #28a745;
+    }
+  </style>
 </head>
+
 <body>
 
-<div class="titulo">
-  🎖️ Lista Logros R.E.P.O. (Detalles en la descripción)
-</div>
-
-<div id="logros-lista">
-
-  <!-- Logros normales -->
-  <div class="logro" id="logro1"><div class="logro-header"><div><input type="checkbox" onchange="toggleLogro(this, 'logro1')"> <span class="logro-title">Último aliento</span></div></div></div>
-  <div class="logro" id="logro2"><div class="logro-header"><div><input type="checkbox" checked onchange="toggleLogro(this, 'logro2')"> <span class="logro-title">Contrato de asesinato</span></div></div></div>
-  <div class="logro" id="logro3"><div class="logro-header"><div><input type="checkbox" onchange="toggleLogro(this, 'logro3')"> <span class="logro-title">Más pega el estratega</span></div></div></div>
-  <div class="logro" id="logro4"><div class="logro-header"><div><input type="checkbox" onchange="toggleLogro(this, 'logro4')"> <span class="logro-title">La unión hace la fuerza</span></div></div></div>
-  <div class="logro" id="logro5"><div class="logro-header"><div><input type="checkbox" checked onchange="toggleLogro(this, 'logro5')"> <span class="logro-title">Nadie se queda atrás</span></div></div></div>
-  <div class="logro" id="logro6"><div class="logro-header"><div><input type="checkbox" onchange="toggleLogro(this, 'logro6')"> <span class="logro-title">Cliente satisfecho</span></div></div></div>
-  <div class="logro" id="logro7"><div class="logro-header"><div><input type="checkbox" checked onchange="toggleLogro(this, 'logro7')"> <span class="logro-title">Sin un rasguño</span></div></div></div>
-  <div class="logro" id="logro8"><div class="logro-header"><div><input type="checkbox" onchange="toggleLogro(this, 'logro8')"> <span class="logro-title">Más vale aquí corrió...</span></div></div></div>
-  <div class="logro" id="logro9"><div class="logro-header"><div><input type="checkbox" onchange="toggleLogro(this, 'logro9')"> <span class="logro-title">Fuego amigo</span></div></div></div>
-  <div class="logro" id="logro10"><div class="logro-header"><div><input type="checkbox" onchange="toggleLogro(this, 'logro10')"> <span class="logro-title">Directo al vacío</span></div></div></div>
-  <div class="logro" id="logro11"><div class="logro-header"><div><input type="checkbox" onchange="toggleLogro(this, 'logro11')"> <span class="logro-title">Algo huele mal</span></div></div></div>
-  <div class="logro" id="logro12"><div class="logro-header"><div><input type="checkbox" onchange="toggleLogro(this, 'logro12')"> <span class="logro-title">Estofado visceral</span></div></div></div>
-  <div class="logro" id="logro13"><div class="logro-header"><div><input type="checkbox" onchange="toggleLogro(this, 'logro13')"> <span class="logro-title">Último en pie</span></div></div></div>
-
-  <!-- Logros con progreso -->
-  <div class="logro" id="logro14" data-completed="2" data-max="2">
-    <div class="logro-header">
-      <div><span class="logro-title">Cazador amateur (2/2)</span></div>
-    </div>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar"></div>
-    </div>
+  <div class="titulo">
+    🎖️ Lista Logros R.E.P.O. (Detalles en la descripción)
   </div>
 
-  <div class="logro" id="logro15" data-completed="1" data-max="3">
-    <div class="logro-header">
-      <div><span class="logro-title">Maratón macabro (1/3)</span></div>
+  <div id="logros-lista">
+
+    <!-- Logros normales -->
+    <div class="logro" id="logro1">
+      <div class="logro-header">
+        <div><input type="checkbox" onchange="toggleLogro(this, 'logro1')"> <span class="logro-title">Último
+            aliento</span></div>
+      </div>
     </div>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar"></div>
+    <div class="logro" id="logro2">
+      <div class="logro-header">
+        <div><input type="checkbox" checked onchange="toggleLogro(this, 'logro2')"> <span class="logro-title">Contrato
+            de asesinato</span></div>
+      </div>
     </div>
+    <div class="logro" id="logro3">
+      <div class="logro-header">
+        <div><input type="checkbox" onchange="toggleLogro(this, 'logro3')"> <span class="logro-title">Más pega el
+            estratega</span></div>
+      </div>
+    </div>
+    <div class="logro" id="logro4">
+      <div class="logro-header">
+        <div><input type="checkbox" onchange="toggleLogro(this, 'logro4')"> <span class="logro-title">La unión hace la
+            fuerza</span></div>
+      </div>
+    </div>
+    <div class="logro" id="logro5">
+      <div class="logro-header">
+        <div><input type="checkbox" checked onchange="toggleLogro(this, 'logro5')"> <span class="logro-title">Nadie se
+            queda atrás</span></div>
+      </div>
+    </div>
+    <div class="logro" id="logro6">
+      <div class="logro-header">
+        <div><input type="checkbox" onchange="toggleLogro(this, 'logro6')"> <span class="logro-title">Cliente
+            satisfecho</span></div>
+      </div>
+    </div>
+    <div class="logro" id="logro7">
+      <div class="logro-header">
+        <div><input type="checkbox" checked onchange="toggleLogro(this, 'logro7')"> <span class="logro-title">Sin un
+            rasguño</span></div>
+      </div>
+    </div>
+    <div class="logro" id="logro8">
+      <div class="logro-header">
+        <div><input type="checkbox" onchange="toggleLogro(this, 'logro8')"> <span class="logro-title">Más vale aquí
+            corrió...</span></div>
+      </div>
+    </div>
+    <div class="logro" id="logro9">
+      <div class="logro-header">
+        <div><input type="checkbox" onchange="toggleLogro(this, 'logro9')"> <span class="logro-title">Fuego amigo</span>
+        </div>
+      </div>
+    </div>
+    <div class="logro" id="logro10">
+      <div class="logro-header">
+        <div><input type="checkbox" onchange="toggleLogro(this, 'logro10')"> <span class="logro-title">Directo al
+            vacío</span></div>
+      </div>
+    </div>
+    <div class="logro" id="logro11">
+      <div class="logro-header">
+        <div><input type="checkbox" onchange="toggleLogro(this, 'logro11')"> <span class="logro-title">Algo huele
+            mal</span></div>
+      </div>
+    </div>
+    <div class="logro" id="logro12">
+      <div class="logro-header">
+        <div><input type="checkbox" onchange="toggleLogro(this, 'logro12')"> <span class="logro-title">Estofado
+            visceral</span></div>
+      </div>
+    </div>
+    <div class="logro" id="logro13">
+      <div class="logro-header">
+        <div><input type="checkbox" onchange="toggleLogro(this, 'logro13')"> <span class="logro-title">Último en
+            pie</span></div>
+      </div>
+    </div>
+
+    <!-- Logros con progreso -->
+    <div class="logro" id="logro14" data-completed="2" data-max="2">
+      <div class="logro-header">
+        <div><span class="logro-title">Cazador amateur (2/2)</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar"></div>
+      </div>
+    </div>
+
+    <div class="logro" id="logro15" data-completed="1" data-max="3">
+      <div class="logro-header">
+        <div><span class="logro-title">Maratón macabro (1/3)</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar"></div>
+      </div>
+    </div>
+
+    <div class="logro" id="logro16" data-completed="1" data-max="8">
+      <div class="logro-header">
+        <div><span class="logro-title">Experto cazador (1/8)</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar"></div>
+      </div>
+    </div>
+
+    <div class="logro" id="logro17" data-completed="1" data-max="10">
+      <div class="logro-header">
+        <div><span class="logro-title">El trabajo de ensueño (1/10)</span></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar"></div>
+      </div>
+    </div>
+
   </div>
 
-  <div class="logro" id="logro16" data-completed="1" data-max="8">
-    <div class="logro-header">
-      <div><span class="logro-title">Experto cazador (1/8)</span></div>
-    </div>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar"></div>
-    </div>
-  </div>
+  <script>
+    // Lógica para logros de checkbox
+    function toggleLogro(checkbox, id) {
+      const logroDiv = document.getElementById(id);
+      const title = logroDiv.querySelector('.logro-title');
+      if (checkbox.checked) {
+        logroDiv.classList.add('completado');
+        localStorage.setItem(id, "completed");
+      } else {
+        logroDiv.classList.remove('completado');
+        localStorage.removeItem(id);
+      }
+    }
 
-  <div class="logro" id="logro17" data-completed="1" data-max="10">
-    <div class="logro-header">
-      <div><span class="logro-title">El trabajo de ensueño (1/10)</span></div>
-    </div>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar"></div>
-    </div>
-  </div>
+    const logrosConBarra = document.querySelectorAll('.logro[data-completed]');
+    logrosConBarra.forEach(logro => {
+      const completed = parseInt(logro.getAttribute('data-completed'));
+      const max = parseInt(logro.getAttribute('data-max'));
+      const porcentaje = (completed / max) * 100;
+      const progressBar = logro.querySelector('.progress-bar');
+      progressBar.style.width = porcentaje + "%";
+      progressBar.innerText = `${completed}/${max}`;
+    });
 
-</div>
-
-<script>
-// Lógica para logros de checkbox
-function toggleLogro(checkbox, id) {
-  const logroDiv = document.getElementById(id);
-  const title = logroDiv.querySelector('.logro-title');
-  if (checkbox.checked) {
-    logroDiv.classList.add('completado');
-    localStorage.setItem(id, "completed");
-  } else {
-    logroDiv.classList.remove('completado');
-    localStorage.removeItem(id);
-  }
-}
-
-</script>
+  </script>
 
 </body>
+
 </html>
