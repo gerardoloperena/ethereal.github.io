@@ -7,10 +7,9 @@ Completa un mapa con la salud mínima.
 8. Más vale aquí corrió...
 Completa un nivel dejando atrás a tus compañeros (salvándote tú solo).
 
-
-
 3. Más pega el estratega
 Mata a un monstruo usando cualquier arma de la tienda.
+
 
 
 
@@ -23,8 +22,9 @@ Mata a un monstruo empujándolo a un agujero o precipicio.
 11. Algo huele mal
 Mata a un monstruo utilizando el inodoro como arma.
 
-13. Último en pie
-Completa una extracción siendo el único superviviente del equipo.
+
+17. El trabajo de ensueño
+Supera el nivel 10.
 
 
 
@@ -32,5 +32,3 @@ Completa una extracción siendo el único superviviente del equipo.
 16. Experto cazador
 Mata a todos los jefes del juego al menos una vez.
 
-17. El trabajo de ensueño
-Supera el nivel 10.
