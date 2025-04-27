@@ -4,26 +4,15 @@
 1. Último aliento
 Completa un mapa con la salud mínima.
 
-2. Contrato de asesinato
-Mata a un monstruo.
+8. Más vale aquí corrió...
+Completa un nivel dejando atrás a tus compañeros (salvándote tú solo).
+
+
 
 3. Más pega el estratega
 Mata a un monstruo usando cualquier arma de la tienda.
 
-4. La unión hace la fuerza
-Trabaja en equipo para transportar un objeto pesado (como un piano) hasta la extracción.
 
-5. Nadie se queda atrás
-Completa una misión sin perder a ningún compañero: todos salen con vida.
-
-6. Cliente satisfecho
-Completa una extracción de al menos 50,000 créditos en objetos recuperados.
-
-7. Sin un rasguño
-Termina una misión en perfecto estado: ningún miembro del equipo resulta herido.
-
-8. Más vale aquí corrió...
-Completa un nivel dejando atrás a tus compañeros (salvándote tú solo).
 
 9. Fuego amigo
 Mata a un monstruo haciendo que otro monstruo lo ataque accidentalmente ó usandolo como arma.
@@ -34,17 +23,11 @@ Mata a un monstruo empujándolo a un agujero o precipicio.
 11. Algo huele mal
 Mata a un monstruo utilizando el inodoro como arma.
 
-12. Estofado visceral
-Mata a un monstruo usando la caldera como método de ejecución.
-
 13. Último en pie
 Completa una extracción siendo el único superviviente del equipo.
 
-14. Cazador amateur
-Mata dos veces a un monstruo principal en un solo mapa.
 
-15. Maratón macabro
-Sobrevive a 3 misiones seguidas sin que muera ningún miembro del equipo.
+
 
 16. Experto cazador
 Mata a todos los jefes del juego al menos una vez.
