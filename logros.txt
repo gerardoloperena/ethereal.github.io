@@ -30,6 +30,7 @@ Mata a todos los jefes del juego al menos una vez.
 - Escopeta
 - Payaso
 - Cabezota
+- Mentalista
 
 - Pato
 - Vomita
