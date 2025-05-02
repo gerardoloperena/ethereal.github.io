@@ -32,6 +32,11 @@ Mata a todos los jefes del juego al menos una vez.
 - Cabezota
 - Mentalista
 - Muñeca navajas
+- Michellin
 
 - Pato
 - Vomita
+
+
+
+(Lava, Monja)
