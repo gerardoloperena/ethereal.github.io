@@ -4,8 +4,7 @@
 1. Último aliento
 Completa un mapa con la salud mínima.
 
-8. Más vale aquí corrió...
-Completa un nivel dejando atrás a tus compañeros (salvándote tú solo).
+
 
 
 
@@ -28,3 +27,9 @@ Supera el nivel 10.
 16. Experto cazador
 Mata a todos los jefes del juego al menos una vez.
 
+- Escopeta
+- Payaso
+- Cabezota
+
+- Pato
+- Vomita
