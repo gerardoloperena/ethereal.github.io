@@ -27,18 +27,21 @@ Supera el nivel 10.
 16. Experto cazador
 Mata a todos los jefes del juego al menos una vez.
 
-- Escopeta
-- Payaso
-- Cabezota
-- Mentalista
-- Muñeca navajas
-- Michellin
-- Lava
+
 
 - Pato
 - Vomita
 - Chef
+- Nomos
 
 
+
+- Cucaracha
+- Calavera
+- Ojo
+- Invisible
+- enderman
+- Cucaracha delgada (cabezon)
+- ElSebas
 
 (Lava, Monja)
