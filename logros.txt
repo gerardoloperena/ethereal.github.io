@@ -34,10 +34,10 @@ Mata a todos los jefes del juego al menos una vez.
 - Chef
 - Nomos
 - ElSebas
-
-
 - Cucaracha
 - Calavera
+
+
 - Ojo
 - Invisible
 - enderman
