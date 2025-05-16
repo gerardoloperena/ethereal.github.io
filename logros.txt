@@ -33,7 +33,7 @@ Mata a todos los jefes del juego al menos una vez.
 - Vomita
 - Chef
 - Nomos
-
+- ElSebas
 
 
 - Cucaracha
@@ -42,6 +42,6 @@ Mata a todos los jefes del juego al menos una vez.
 - Invisible
 - enderman
 - Cucaracha delgada (cabezon)
-- ElSebas
+
 
 (Lava, Monja)
