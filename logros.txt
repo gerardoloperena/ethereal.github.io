@@ -39,7 +39,6 @@ Mata a todos los jefes del juego al menos una vez.
 
 
 - Ojo
-- Invisible
 - enderman
 - Cucaracha delgada (cabezon)
 
